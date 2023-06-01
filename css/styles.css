@@ -1,0 +1,75 @@
+:root{
+  --my-hue:160;
+}
+html{
+  margin: 0px auto;
+}
+body{
+  font-family: "Helvetica Neue",'Hannotate TC','Verdana',sans-serif;
+  color: hsl(var(--my-hue), 35%, 55%);
+  letter-spacing: 0.1em;
+  overflow-y: scroll;
+  margin:0px;
+  padding:0px;
+  background-color: hsl(var(--my-hue), 40%, 95%);
+  font-size:16px;
+  max-width: 100%;
+}
+footer{
+  margin-top: 10px;
+  margin: 5px;
+}
+#header{
+
+  position: fixed;
+  height: 90px;
+  width:100%;
+  background-color:hsl(var(--my-hue), 40%, 95%);
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  border-bottom: 0.5em solid lightgrey;
+}
+
+#mainbox{
+  background-color: cornsilk;
+  max-width: 100%;
+  padding-top: 130px;
+  margin-left: 40px;
+}
+#title{
+  display: flex;
+}
+#header h1{
+  font-size: 1.3rem;
+  margin:auto;
+  padding: 15px;
+  text-align:center;
+}
+.navi{
+  margin: auto;
+}
+.navi a{
+  font-size:0.5rem;
+  cursor:pointer;
+  text-decoration: none;
+  color:hsl(var(--my-hue), 35%, 55%);
+}
+.navi a:hover{
+  color:hsl(calc(var(--my-hue)+80), 35%, 55%);
+  background-color:hsl(calc(var(--my-hue) + 60), 50%, 50%);
+}
+.headercontainer{
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+}
+
+#rawtext{
+  width: 95%;
+  height: 300px;
+}
+#newtext{
+  width: 94.5%;
+  height: 300px;
+}
